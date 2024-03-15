@@ -113,10 +113,11 @@ body {
 /*Right section*/
 .page_logo_container {
     width: 65%;
-    background-image: url(/Assets/scuba.jpg);
+    background-image: url(/Register-page/Assets/scuba.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15%;
+    box-shadow: 40px 0px 50px -18px rgba(245, 245, 245, 0.45) inset;
 }
 
 /*Submit Button*/
@@ -140,4 +141,13 @@ body {
     /* opacity: 0.6;
     cursor: pointer; */
     box-shadow: 0px 0px 10px 0px #bababb;
+}
+
+/*Text on right*/
+.text_container_right {
+    border: 2px solid black;
+    position: absolute;
+    bottom: 50px;
+    margin: 30px;
+    padding: 20px;
 }
